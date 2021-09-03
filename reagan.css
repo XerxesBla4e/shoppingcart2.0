@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    margin: 0 auto;
+    padding: 1%;
+    width: 80%;
+
+}
+
+.clear_fix{
+    clear: both;
+    flex: none;
+}
+.text_direction{
+    text-align: right;
+}
+.menu ul li{
+display: inline;
+}
+.menu ul li a:hover{
+   color: red;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color:lightcoral;
+}
+.lnk{
+    margin-top: 20%;
+    padding: 3%;
+    color: white;
+    background-color: lightcoral;
+    border-radius: 5%;
+    font-weight: bold;
+}
+.lnk:hover{
+color: white;
+background-color: red;
+}
+.nav_bar{
+    line-height: 70%;
+}
+.shoppe{
+    padding: 4%;
+    background-color: silver;
+}
+.item_box{
+    float: left;
+    width: 22%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.item_image{
+    width: 80%;
+    float: left;
+}
+
+.img_responsive{
+    width: 100%;
+}
+
+.img_curve{
+    border-radius: 20%;
+}
+.item_description{
+    float: left;
+    margin-left: 19%;
+}
+.cart{
+    background-color: grey;
+}
+.count_design{
+    border-radius: 7%;
+    float: left;
+    margin-left: 1%;
+    padding: 2%;
+    color: black; 
+    background-color: white;
+}
+
+.item_box1{
+  
+    width: 23%;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: rebeccapurple;
+    border: 1px solid black;
+}
+.item_image1{
+    width: 50%;
+    margin-left: 20%;
+}
+
+.item_description1{
+    margin-left: 20%;
+}
+
+.btn{
+    padding: 1%;
+    font-weight: bold;
+}
+
+.btn-success{
+    color: black;
+    background-color: yellow;
+}
+.btn-danger{
+    color: white;
+    background-color: red;
+}
+.price_dets{
+    font-weight: bold;
+    margin-left: 400px;
+    padding: 3%;
+    border: 1px solid black;
+}
